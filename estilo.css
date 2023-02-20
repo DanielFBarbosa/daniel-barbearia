@@ -51,17 +51,17 @@ header {
 header > h1 {
     color: var(--cor6);
     font-family: var(--font-family);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 10px;
-    font-size: 4em;
+    font-size: 4.5em;
     font-weight: normal;
-    text-shadow: 5px 5px 0px  rgba(0, 0, 0, 0.278);
+    text-shadow: 4px 4px 0px  rgba(0, 0, 0, 0.261);
     
 }
 
 header > p {
     font-family: var(--fonte-padrao);
-    color: var(--cor6);
+    color: var(--cor2);
     font-size: 1.1em;
     max-width: 600px;
     margin: auto;
@@ -86,7 +86,7 @@ nav > a {
     color: var(--cor0);
     text-decoration:none;
     font-size: 1em;
-    padding: 15px;
+    padding: 13px;
     font-weight: bold;
     transition-duration: 0.5s;
 }
@@ -119,14 +119,21 @@ main h1 {
 }
 
 main h2 {
-    font-family: var(--fonte-android); 
-    color: var(--cor5);
-    font-size: 1.3em;
+    font-family: var(--font); 
+    color: var(--cor6);
+    font-size: 1.5em;
+    margin-bottom: 10px;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor4), var( --cor7));
+    background-image: linear-gradient(to right, var(--cor2), var( --cor7));
 
     /*text-indent: px; pode ser colocado para afastar a letra do inicio ou seja, indentização*/
 }
+
+main h3 {
+    text-align: justify;
+    color: var(--cor5);
+}
+
 
 main  p {
     margin: 15px 0px;
@@ -157,22 +164,23 @@ main a:hover {
 }
 
 main img {
-   width: 30% ;
+   width: 100% ;
    padding-top: 10px;
 }
 
 main img.pequena {
    max-width: 350px;
-   display: block;
    margin: auto;
 }
 
 Picture  img {
-
-    background-color:var(--cor0);
+    
+    background-color: var(--cor);
     padding-top: 0%;
-    margin-top: 20px;
-    width: 150px;
+
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 70%;
     background-image: linear-gradient(to right, var(--cor6), transparent);
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.368);
 }
